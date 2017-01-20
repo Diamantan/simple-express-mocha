@@ -11,7 +11,7 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
-app.listen(process.env.PORT, process.env.IP, () => {
+app.listen(process.env.PORT || 80, process.env.IP || '0.0.0.0', () => {
     console.log('Server running');
 });
 
