@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/ --recursive",
+    "test": "MOCHA_FILE=./jenkins-test-results.xml ./node_modules/.bin/mocha test/** --reporter mocha-junit-reporter",
     "start": "node server.js"
   },
   "author": "",
