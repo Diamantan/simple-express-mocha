@@ -9,6 +9,9 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+	"node": "6.2.1"
+  },
   "dependencies": {
     "ejs": "^2.4.1",
     "express": "^4.13.4"
@@ -19,4 +22,5 @@
     "mocha-junit-reporter": "^1.13.0",
     "supertest": "^2.0.1"
   }
+  
 }
